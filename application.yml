@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: jaeha6183@
+
+    jpa:
+      hibernate:
+        ddl-auto: create
+        dialect: org.hibernate.dialect.MySQLDialect
+      show-sql: true
